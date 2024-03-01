@@ -1,0 +1,166 @@
+body {
+  background-color: #001233;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro > p {
+  margin-bottom: 50px;
+  padding: 0;
+  /* position: relative;
+    bottom: 10px; */
+  font-size: 24px;
+  text-align: center;
+  max-width: 800px;
+  line-height: 50px;
+}
+
+.Typist {
+  color: #ccd6f6;
+  text-align: center;
+  font-size: 76px;
+  margin-top: -30px;
+}
+.Typist .Cursor--blinking {
+  color: #64ffda;
+  padding-left: 4px;
+}
+
+.intro-title {
+  font-family: "NTR", sans-serif;
+  font-size: 86px;
+  color: #ccd6f6;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+.intro-name {
+  font-family: "NTR", sans-serif;
+  color: #64ffda;
+  font-weight: bold;
+  font-size: 86px;
+}
+.intro-contact {
+  font-size: 22px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #64ffda;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+p,
+li {
+  font-size: 22px;
+}
+.highlight {
+  color: #64ffda;
+  font-weight: bold;
+}
+.aboutme {
+  margin-left: 150px;
+  position: relative;
+}
+.aboutme > h1 {
+  color: #ccd6f6;
+  font-size: 3.5em;
+}
+.aboutme > p {
+  width: 550px;
+  text-align: left;
+  line-height: 50px;
+}
+ul {
+  margin-top: 20px;
+  margin-left: -20px;
+  /* list-style-type: circle; */
+}
+.lists {
+  display: flex;
+  line-height: 50px;
+}
+.list2 {
+  margin-left: 100px;
+  line-height: 50px;
+}
+
+li::marker {
+  color: #64ffda;
+}
+
+footer {
+  color: #64ffda;
+  text-align: center;
+  margin: 40px;
+}
+.about-image {
+  /* width: 350px;
+    height: 240px;
+    position: absolute;
+    right: 100px;
+    top: 132px;
+    border-radius: 10px; */
+  max-width: 300px;
+
+  position: relative;
+}
+.dp {
+  width: 350px;
+  position: absolute;
+  left: 670px;
+  bottom: 350px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+  border: none;
+}
+.webicon {
+  border-radius: 100%;
+}
+@media only screen and (max-width: 600px), (max-width: 700px) {
+  .aboutme {
+    margin-left: 20px; /* Adjust the margin for smaller screens */
+  }
+
+  .intro > h1 {
+    margin-top: 50px; /* Adjust the margin for smaller screens */
+  }
+
+  .aboutme > h1 {
+    font-size: 2em; /* Adjust the font size for smaller screens */
+  }
+
+  .aboutme > p {
+    width: auto; /* Allow the paragraph to take full width on smaller screens */
+  }
+
+  .lists {
+    flex-direction: column; /* Stack the lists vertically on smaller screens */
+    margin-left: 0; /* Remove left margin for smaller screens */
+  }
+
+  .list2 {
+    margin-left: 30px;
+    margin-top: -15px;
+  }
+
+  ul {
+    margin-left: 30px; /* Adjust the left margin for lists on smaller screens */
+  }
+
+  .dp {
+    display: none;
+  }
+
+  .about-image {
+    max-width: 100%; /* Make the about-image width 100% on smaller screens */
+  }
+}
