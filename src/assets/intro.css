@@ -126,8 +126,28 @@ footer {
   border-radius: 100%;
 }
 @media only screen and (max-width: 600px), (max-width: 700px) {
+  .intro {
+    text-align: center;
+  }
+  .intro-name {
+    font-size: 60px;
+  }
+  .intro-title {
+    font-size: 60px;
+  }
+  .intro > p {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .intro-contact {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
   .aboutme {
-    margin-left: 20px; /* Adjust the margin for smaller screens */
+    margin-left: 33px;
   }
 
   .intro > h1 {
@@ -135,25 +155,30 @@ footer {
   }
 
   .aboutme > h1 {
-    font-size: 2em; /* Adjust the font size for smaller screens */
+    margin-bottom: 35px;
+    font-size: 2.5em;
+    margin-bottom: 70px;
   }
 
   .aboutme > p {
-    width: auto; /* Allow the paragraph to take full width on smaller screens */
+    width: auto;
+    font-size: 18px;
+    line-height: 40px; /* Allow the paragraph to take full width on smaller screens */
   }
 
   .lists {
+    margin-top: -20px;
     flex-direction: column; /* Stack the lists vertically on smaller screens */
-    margin-left: 0; /* Remove left margin for smaller screens */
+    /* Remove left margin for smaller screens */
   }
 
   .list2 {
-    margin-left: 30px;
+    margin-left: -20px;
     margin-top: -15px;
   }
-
-  ul {
-    margin-left: 30px; /* Adjust the left margin for lists on smaller screens */
+  li {
+    font-size: 18px;
+    line-height: 40px;
   }
 
   .dp {

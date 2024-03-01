@@ -19,7 +19,7 @@ function AboutMe() {
           some technologies I have been working with:
         </p>
         <div className="lists">
-          <ul>
+          <ul className="list1">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
