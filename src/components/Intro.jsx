@@ -13,7 +13,7 @@ export default function Intro() {
           </span>
         </Typist>
         <p>
-          I'm a student currently persuing Masters of Computer Application(MCA)
+          I'm a student currently pursuing Masters of Computer Application(MCA)
           in Bengaluru.I have profound interest in front-end development,
           back-end development and everything in between.
         </p>
